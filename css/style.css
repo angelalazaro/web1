@@ -11,6 +11,9 @@ body {
     background-repeat: no-repeat;
     box-shadow: 5px 10px 18px rgb(251, 7, 145);
 }
+#principal {
+    text-align: center;
+}
 
 header {
     background-image: url(../img/madera.webp);
@@ -30,12 +33,12 @@ footer {
 
 nav {
     background-color: rgb(124, 18, 114);
-    width: 200px;
+    width: 20%;
     float: left;
 }
 
 #content {
-    width: 809%;
+    width: 78%;
     padding: 1%;
     float: right;
 }
@@ -56,7 +59,7 @@ nav ul li {
     font-size: 24px;
     color: rgb(173, 37, 118);
     padding: 22px;
-    border: solid 2px rgb(144, 104, 25));
+    border: solid 2px rgb(144, 104, 25);
 }
 
 a {
@@ -65,7 +68,7 @@ a {
 
 nav ul li:hover{
     background-color: rgb(17, 15, 15);
-    color: rgb(113, 35, 113));
+    color: rgb(113, 35, 113);
 }
 
 .tag {
